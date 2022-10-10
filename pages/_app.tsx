@@ -5,11 +5,11 @@ import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <div className="min-h-screen grid grid-rows-[auto_1fr_auto]">
       <Header />
       <Component {...pageProps} />
       <Footer />
-    </>
+    </div>
   );
 }
 
